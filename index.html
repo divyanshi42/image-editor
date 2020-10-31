@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Filter Effects | Webdevtrick.com</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="images/logo1.png" type="image/icon type">
+</head>
+
+<body>
+	<div class="container">
+		<div class="image">
+			<img id="img" src="https://webdevtrick.com/wp-content/uploads/login-page-image.jpg" alt="">
+		</div>
+
+		<div class="sliders">
+			<div class="singleSlider">
+				<div class="val" id="bright">100%</div>
+				<input class="slider" id="slider1" type="range" min="0" max="500" value="100">
+				<label for="slider1">brightness</label>
+			</div>
+			<div class="singleSlider">
+				<div class="val" id="contrast">100%</div>
+				<input class="slider" id="slider2" type="range" min="0" max="500" value="100">
+				<label for="slider2">contrast</label>
+			</div>
+			<div class="singleSlider">
+				<div class="val" id="saturate">100%</div>
+				<input class="slider" id="slider3" type="range" min="0" max="500" value="100">
+				<label for="slider3">saturate</label>
+			</div>
+			<div class="singleSlider">
+				<div class="val" id="gray">0%</div>
+				<input class="slider" id="slider4" type="range" min="0" max="100" value="0">
+				<label for="slider4">grayscale</label>
+			</div>
+			<div class="singleSlider">
+				<div class="val" id="invert">0%</div>
+				<input class="slider" id="slider5" type="range" min="0" max="100" value="0">
+				<label for="slider5">invert</label>
+			</div>
+			<div class="singleSlider">
+				<div class="val" id="hue">0°</div>
+				<input class="slider" id="slider6" type="range" min="0" max="360" value="0">
+				<label for="slider6">hue rotate</label>
+			</div>
+			<div class="singleSlider">
+				<div class="val" id="blur">0px</div>
+				<input class="slider" id="slider7" type="range" min="0" max="20" value="0">
+				<label for="slider7">blur</label>
+			</div>
+			<div class="singleSlider">
+				<div class="val" id="opacity">100%</div>
+				<input class="slider" id="slider8" type="range" min="0" max="100" value="0">
+				<label for="slider8">opacity</label>
+			</div>
+			<div class="singleSlider">
+				<div class="val" id="sepia">0%</div>
+				<input class="slider" id="slider9" type="range" min="0" max="100" value="0">
+				<label for="slider9">sepia</label>
+			</div>
+		</div>
+	</div>
+	<button id="resetAll">reset</button>
+	<button id="home-btn"><a href="home.html">HOME</a></button>
+	<script src="function.js"></script>
+
+</body>
+
+</html>
