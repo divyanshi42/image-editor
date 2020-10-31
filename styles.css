@@ -102,7 +102,7 @@ body {
   margin-bottom: 20px;
 }
 
-.two-column-wrapper {
+/* .two-column-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -117,4 +117,4 @@ body {
 
 .profile-content-wrapper h1 {
   color: lightseagreen;
-}
+} */
